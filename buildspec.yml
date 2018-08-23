@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Build started on `date`
+      - echo I said the Build started on `date`
       - echo Marcus Compiling the Go code...
       - go build hello.go
   post_build:
